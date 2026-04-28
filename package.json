@@ -1,0 +1,13 @@
+{
+  "name": "qa-ci-project",
+  "version": "1.0.0",
+  "description": "QA CI pipeline project with Playwright and k6",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test",
+    "test:perf": "k6 run k6-test.js",
+    "test:all": "npm run test:ui && npm run test:perf"
+  },
+  "author": "",
+  "license": "ISC"
+}
