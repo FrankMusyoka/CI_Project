@@ -1,5 +1,5 @@
 {
-  "name": "qa-ci-project",
+  "name": "CI_Project",
   "version": "1.0.0",
   "description": "QA CI pipeline project with Playwright and k6",
   "main": "index.js",
